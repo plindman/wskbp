@@ -1,0 +1,14 @@
+{
+  "name": "pli-wsk-sandbox",
+  "version": "0.0.0",
+  "description": "Sandbox project to play around with Google Web Starter kit and AngularJS",
+  "repository": "https://github.com/plindman/wskbp",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "html5-boilerplate": "~4.3.0"
+  }
+}

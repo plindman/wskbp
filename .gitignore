@@ -2,3 +2,10 @@ node_modules
 .sass-cache
 dist
 .tmp
+
+bower_components/
+tmp
+logs/*
+!.gitkeep
+.DS_Store
+.idea
