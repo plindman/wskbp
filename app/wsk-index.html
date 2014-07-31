@@ -1,15 +1,11 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="app" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="app" class="no-js"> <!--<![endif]-->
-
+<html lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Web Starter Kit and Angular playground</title>
+    <title>Web Starter Kit</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -33,14 +29,13 @@
     <link rel="stylesheet" href="styles/h5bp.css">
     <link rel="stylesheet" href="styles/components/components.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="app.css">
     <!-- endbuild -->
   </head>
   <body>
     <header class="app-bar promote-layer">
       <div class="app-bar-container">
         <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
-        <h1 class="logo">Web Starter Kit w/ Angular</h1>
+        <h1 class="logo">Web Starter Kit</h1>
         <section class="app-bar-actions">
         <!-- Put App Bar Buttons Here -->
         </section>
@@ -56,11 +51,9 @@
       </ul>
     </nav>
 
-	<div ng-view></div>
-
     <main>
       <h1 id="hello">Hello!</h1>
-      <p>Welcome to Web Starter Kit w/ Angular.</p>
+      <p>Welcome to Web Starter Kit.</p>
 
       <h2 id="get-started">Get Started.</h2>
       <p>Read how to <a href="http://developers.google.com/web/starter-kit">Get Started</a> or check out the <a href="styleguide/index.html">Style Guide</a>.</p>
@@ -68,11 +61,10 @@
 
     <!-- build:js scripts/main.min.js -->
     <script src="scripts/main.js"></script>
-    <script src="app.js"></script>
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-    <!-- <script>
+    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -80,7 +72,6 @@
       ga('create', 'UA-XXXXX-X');
       ga('send', 'pageview');
     </script>
-    -->
     <!-- Built with love using Web Starter Kit -->
   </body>
 </html>
